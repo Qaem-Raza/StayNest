@@ -4,6 +4,18 @@
     <!-- <form method="get" action="/listings/new">
         <button>Create new listing</button>
     </form> -->
+    <%for(let listing of allListings){%>
+        <div class="card" style="width: 18rem;">
+            <img src="<%= listing.image%>" class="card-img-top" alt="Listing_image">
+            <div class="card-body">
+                <p class="card-text">
+                    <%= listing.title %> <br>
+                    &#8377; <%= listing.price.toLocaleString("en-IN") %>
+                </p>
+            </div>
+        </div>
+    <%}%>
+
     <ul>
         <%for(let listing of allListings){%>
             <li> <a href="/listings/<%= listing._id%>"><%= listing.title %></a></li>
