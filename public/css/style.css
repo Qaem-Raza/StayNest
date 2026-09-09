@@ -3,7 +3,14 @@ body{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 
+}
+
+.container{
+    flex: 1;
 }
 
 .navbar{
@@ -85,4 +92,12 @@ body{
 .card-img-overlay:hover {
     opacity: 0.2;
     background-color: white;
+}
+
+/* New page */
+
+.add-btn {
+    background-color: #fe424d !important;
+    border: none;
+    border: 2rem !important;
 }
