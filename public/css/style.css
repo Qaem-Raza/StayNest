@@ -108,3 +108,19 @@ body{
     border: none;
     border: 2rem !important;
 }
+
+/* Show Individual Listing Page */
+.show-img {
+    height: 30vh;
+    width: 100% !important;
+}
+
+.btns{
+    display: flex;
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+
+}
