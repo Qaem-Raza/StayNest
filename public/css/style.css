@@ -101,3 +101,10 @@ body{
     border: none;
     border: 2rem !important;
 }
+
+/* Edit Page */
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none;
+    border: 2rem !important;
+}
